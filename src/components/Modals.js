@@ -20,11 +20,12 @@ export default class Modals extends React.Component {
   render() {
     return (
       <div>
-        <Button className='modalName' style={{border: '2px solid red', backgroundColor: 'ghostwhite', color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black'}} onClick={this.toggle}>Trucks</Button>
+        <Button className='modalName' style={{border: '2px solid red', backgroundColor: 'ghostwhite', color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black'}} onClick={this.toggle}>Home Security</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>{this.props.title}</ModalHeader>
           <ModalBody>
-            {this.props.Recipe}
+            In this area, detailed information about specific products can be displayed. Links may be placed to connect to
+            other sites in this area as well.
           </ModalBody>
           <ModalFooter>
             <Button color="danger" onClick={this.toggle}>Return</Button>{' '}
