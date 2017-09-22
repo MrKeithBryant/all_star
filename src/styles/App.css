@@ -34,6 +34,8 @@ background: linear-gradient(to top, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Fir
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+font-size: 12px;
+border-bottom: 1px solid red;
 }
 
 .Logo {
@@ -64,19 +66,65 @@ justify-content: space-around;
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+
 }
 
 .Para1 {
   text-align: justify;
   margin-right: 50px;
   margin-left: 50px;
-
+  align-self: center;
 }
 
 .Para2 {
   text-align: justify;
   margin-right: 50px;
+}
+
+.Cent {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+
+.CentPara {
+  margin-left: 50px;
+  margin-right: 25px;
+
+}
+
+.CentPara1 {
+  margin-left: 25px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.Bill {
+
+}
+
+.Bill1 {
+
+}
+
+#ParaPic {
+  background-image: url('./AllStarLeft.jpeg');
+  background-size: cover;
+  height: 220px;
+  width: 500px;
+  align-content: baseline;
+  margin-top: 150px;
+
+
+}
+
+#ParaPic1 {
+  background-image: url('./AllStarRight.jpeg');
+  background-size: cover;
+  height: 220px;
+  width: 500px;
+  margin-top: -9px;
+
 }
 
 .footer {
@@ -91,12 +139,97 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 border-top: 2px solid red;
+margin-top: 20px;
 }
 
 .home {
   /*background-image: url('./footer_lodyas.png');*/
   background-color: snow;
+  margin-top: -20px;
   height: 72.5vh;
-  border-top: 2px solid red;
+  font-size: 14px;
 
+}
+
+.Seg1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.SegPara {
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.SegPara1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -155px;
+  width: 600px;
+  align-self: flex-end;
+
+}
+
+.SegPara2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -5px;
+
+}
+
+.SegPara3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -152px;
+
+}
+
+.SegPara4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -10px;
+}
+
+.SegPara5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -150px;
+}
+
+.ModalSec1 {
+  display: flex;
+}
+
+
+.L1 {
+
+}
+
+.ml-auto {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.CarPic0 {
+  background-color: yellow;
+}
+
+.Brand {
+
+}
+
+#Nbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

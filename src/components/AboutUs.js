@@ -6,7 +6,7 @@ export default class AboutUs extends React.Component {
       <div>
           <div id='About'>
             <div className='Para1'>
-              <h4 style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black'}}>About Us</h4>
+              <h4 style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black', textAlign: 'center'}}>About Us</h4>
                 <p>Gary Wolfelt, long time Lafayette resident, opened Wolfelt Security in _____.
                 After several years as President of the company,
                 Gary took on three partners and began All -Star Electronic Security Systems in _____.
@@ -26,17 +26,17 @@ export default class AboutUs extends React.Component {
                 </p>
             </div>
             <div className='Para2'>
-                  <h4 style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black'}}>Services</h4>
+                  <h4 style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black', textAlign: 'center'}}>Services</h4>
 
                   <p>All-Star Electronic Security Systems, Inc. provides personal attention to our Customer.
                   Our phones are answered 24 hours daily by an employee of the company not a computer or an operator providing a unique customer service oriented solution to security issues.
                   We provide both commercial and residential security solutions including fire panels, video surveillance, access control and monitoring services.
                   </p>
 
-                  //Will need photos + bios by week three
-                  <h4>Our Team (photos and self-written bios)</h4>
+                  Will need photos + bios by week three
+                  <p>Our Team (photos and self-written bios)</p>
 
-                  <h4 style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black'}}>Contact Us</h4>
+                  <h4 style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black', textAlign: 'center'}}>Contact Us</h4>
                   We are located in the heart of downtown Lafayette at
                   812 Main Street
                   Lafayette, IN 47901
