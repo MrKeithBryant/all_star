@@ -2,6 +2,7 @@
   "name": "all_star_security",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mrkeithbryant.github.io/all_star/",
   "dependencies": {
     "bootstrap": "4.0.0-beta",
     "react": "^15.3.0",
@@ -14,9 +15,14 @@
     "reactstrap": "^4.8.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
   }
 }
