@@ -15,7 +15,7 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
         <Switch>
-          <Route exact path='/' component={HomePage}/>
+          <Route path='/all_star' component={HomePage}/>
           <Route path='/Test' component={Test}/>
           <Route path='/AboutUs' component={AboutUs}/>
           <Route path='/Carousel' component={Carousel}/>
