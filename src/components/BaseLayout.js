@@ -12,7 +12,7 @@ export default class BaseLayout extends React.Component {
               <NavbarBrand className='Brand' href='/' style={{color: 'red', fontWeight: '800', fontSize: '30px', textShadow: '2px 2px 4px black'}}>All-Star Security</NavbarBrand>
               <Nav className="ml-auto">
                 <NavItem>
-                  <NavLink><Link to="/CentralMonitoring" style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black'}}>Central Monitoring</Link></NavLink>
+                  <NavLink><Link to="/EmergencyMonitoringStation" style={{color: 'blue', fontWeight: '600', textShadow: '1px 1px 2px black'}}>Emergency Monitoring Station</Link></NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink><Link to="/VideoSurveillance" style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black'}}>Video Surveillance</Link></NavLink>
@@ -24,8 +24,7 @@ export default class BaseLayout extends React.Component {
                   <NavLink><Link to="/AboutUs" style={{color: 'red', fontWeight: '600', textShadow: '1px 1px 2px black'}}>About Us</Link></NavLink>
                 </NavItem>
               </Nav>
-            <img className='Logo1' style={{height: '20vh', width: '25.5vh'}} />
-          </Navbar>
+            </Navbar>
         <div className="home">
           {this.props.children}
         </div>
