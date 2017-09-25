@@ -1,3 +1,8 @@
+body {
+  background-image: url('./footer_lodyas.png');
+
+}
+
 .App {
   text-align: center;
 }
@@ -28,14 +33,11 @@
 /*background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 /*background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 height: 20vh;
-background: #EF3B36;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 font-size: 12px;
-border-bottom: 1px solid red;
+
 }
 
 .Logo {
@@ -128,26 +130,20 @@ border-bottom: 1px solid red;
 }
 
 .footer {
-background: #EF3B36;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 56px;
-width: 100%;
-position: fixed;
+height: 30px;
 display: flex;
 flex-direction: row;
 justify-content: center;
-align-items: center;
-border-top: 2px solid red;
+align-items: flex-end;
+
 margin-top: 20px;
 }
 
 .home {
   /*background-image: url('./footer_lodyas.png');*/
-  background-color: snow;
-  margin-top: -20px;
-  height: 72.5vh;
-  font-size: 14px;
+
+  color: white;
+  height: 67vh;
 
 }
 
@@ -214,9 +210,9 @@ margin-top: 20px;
 }
 
 .ml-auto {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 5px;
-  margin-right: 20px;
+  margin-right: 14px;
 }
 
 .CarPic0 {
@@ -232,4 +228,8 @@ margin-top: 20px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+#Nbar > ul > li > a {
+  background-color: inherit;
 }

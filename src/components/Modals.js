@@ -31,6 +31,17 @@ export default class Modals extends React.Component {
             <Button color="danger" onClick={this.toggle}>Return</Button>{' '}
           </ModalFooter>
         </Modal>
+        <div className='SegPara'>
+          <p>
+            From Home Security Systems to Video Surveillance,
+            <br/>
+            All-Star has a solution for your security needs.
+          </p>
+            <div className='ModalSec1'>
+              <Modals />
+              <img className='Inter' style={{height: '100px', width: '150px'}}/>
+            </div>
+          </div>
       </div>
     );
   }
