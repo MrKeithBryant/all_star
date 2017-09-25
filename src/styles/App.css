@@ -233,3 +233,19 @@ margin-top: 20px;
 #Nbar > ul > li > a {
   background-color: inherit;
 }
+
+#carouselExampleSlidesOnly {
+  width: 80%;
+  height: 50%;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+#Caro1 {
+  height: 400px;
+  width: 100%;
+  background-image: url('');
+}
